@@ -83,5 +83,12 @@
     <Compile Include="ProtobufHelpers.cs" />
     <EmbeddedResource Include="Bundles\modi" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
